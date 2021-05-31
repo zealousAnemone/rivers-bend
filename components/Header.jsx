@@ -6,6 +6,7 @@ const Header = () => {
       <span className="sitename"><Link href="/">River's Bend</Link></span>
       <nav>
         <Link href="/cabin">The Cabin</Link>
+        <Link href="/photos">Photos</Link>
         <Link href='/policies'>Policies</Link>
         <Link href="/attractions">Attractions</Link>
         <Link href="/reserve">Reserve</Link>
