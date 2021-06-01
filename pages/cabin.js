@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Link from 'next/link';
 
 const Cabin = () => {
   return (
@@ -32,7 +32,7 @@ const Cabin = () => {
             full cell reception for Verizon tower users.
           </p>
           <p>
-            <a href="#">Check out more photos here</a>
+            <Link href="/photos">Check out more photos here</Link>
           </p>
           {/* <img src="/photos/bed1.jpg" />
           <img src="/photos/river.jpg" /> */}
