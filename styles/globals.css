@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 3px solid var(--red);
+  border-bottom: 3px solid var(--teal);
 }
 
 * {
@@ -144,15 +144,18 @@ cabin {
 } */
 
 #photos {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  column-gap: 10px;
-  row-gap: 10px;
   margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  /* justify-items: center;
+  /* grid-auto-flow: dense; */
 }
-.photo {
-  max-width: 30vw;
-  border-radius: 10px;
+
+#photos img {
+  margin-bottom: 3%;
 }
 
 #footer {
