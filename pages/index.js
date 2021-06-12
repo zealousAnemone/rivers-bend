@@ -1,30 +1,31 @@
+import { Container, Image, Row, Col } from 'react-bootstrap';
+
 export default function Home() {
   return (
-    <div id="home">
-      <div id="test"></div>
-      <div id="welcome">
-        <div id="title">
+    <Container fluid>
+      <Image src="/photos/aerial.JPG" fluid />
+
+      <Row>
+        <Col lg={3} md={2} xs={1}></Col>
+        <Col lg={6} md={8} xs={10}>
           <h1>Welcome to River's Bend</h1>
-        </div>
-        <div id="home-text">
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere
-            sollicitudin aliquam ultrices sagittis orci a scelerisque.{' '}
+            Relax in this cozy cabin in the Adirondacks, right on the Schroon
+            River near Schroon Lake, NY.
           </p>
           <p>
-            Libero nunc consequat interdum varius sit amet mattis vulputate
-            enim. Scelerisque mauris pellentesque pulvinar pellentesque habitant
-            morbi tristique senectus et.
+            Perfect for nature lovers! Go for a hike, take a swim, kayak on the
+            river, or take a trip into town. At night, relax by the fire, then
+            get comfy in this private cabin.
           </p>
           <p>
-            {' '}
-            Tellus at urna condimentum mattis pellentesque id nibh tortor id.
-            Erat nam at lectus urna duis convallis convallis tellus id. At
-            elementum eu facilisis sed odio morbi quis.
+            Ready to get away from it all? Find out how you can book your next
+            escape.
           </p>
-        </div>
-      </div>
-    </div>
+        </Col>
+        <Col lg={3} xs={1} md={2}></Col>
+      </Row>
+    </Container>
   );
 }
