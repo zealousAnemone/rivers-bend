@@ -5,15 +5,15 @@ import Nav from 'react-bootstrap/Nav';
 const Header = () => {
   return (
     <Navbar expand="md">
-      <Navbar.Brand><Link href="/">River's Bend</Link></Navbar.Brand>
+      <Navbar.Brand id="sitename"><Link href="/">River's Bend</Link></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Link href="/cabin">The Cabin</Link>
-        <Link href="/photos">Photos</Link>
-        <Link href='/policies'>Policies</Link>
-        <Link href="/attractions">Attractions</Link>
-        <Link href="/reserve">Reserve</Link>
+        <Nav.Item><Link href="/cabin">The Cabin</Link></Nav.Item>
+        <Nav.Item><Link href="/photos">Photos</Link></Nav.Item>
+        <Nav.Item><Link href='/policies'>Policies</Link></Nav.Item>
+        <Nav.Item><Link href="/attractions">Attractions</Link></Nav.Item>
+        <Nav.Item><Link href="/reserve">Reserve</Link></Nav.Item>
         </Nav>
      </Navbar.Collapse>
     </Navbar>

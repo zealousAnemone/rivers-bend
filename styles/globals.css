@@ -46,8 +46,13 @@ nav a {
   margin-right: 1rem;
 }
 
+.attraction {
+  font-weight: 600;
+  color: var(--drkbrown);
+}
+
 h1,
-.sitename {
+#sitename {
   font-family: 'Gloria Hallelujah', cursive;
   text-transform: uppercase;
   color: var(--red);
@@ -70,34 +75,15 @@ h1,
 
 .title {
   text-align: center;
-}
-/* 
-#par1 {
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
+  margin: 1rem 0;
 }
 
-#par2 {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
+#main-rules li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 1rem;
+  font-weight: 600;
 }
-
-#photo-area {
-  grid-column: 2 / 3;
-}
-
-#photo-area img {
-  max-width: 90%;
-}
-
-#par3 {
-  grid-row: 3 / 4;
-  grid-column: 1 / 3;
-} */
-
-/* #cabin-description img {
-  border-radius: 15px;
-} */
 
 #photos {
   margin: 2rem;
@@ -105,15 +91,15 @@ h1,
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-
-  /* justify-items: center;
-  /* grid-auto-flow: dense; */
 }
 
 #photos img {
   margin-bottom: 3%;
 }
 
+#reserve {
+  min-height: 80vh;
+}
 #footer {
   background-color: rgba(60, 122, 137, 0.5);
   border-top: 1px solid var(--teal);
